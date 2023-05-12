@@ -1,0 +1,49 @@
+section {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.traffic {
+  width: 183px;
+  height: auto;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.buttons button {
+  display: inline-block;
+  padding: 10px 22px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+#red {
+  background-color: #e41212;
+}
+
+#yellow {
+  background-color: #ffa500;
+}
+
+#green {
+  background-color: #00a700;
+}
+
+#automatic {
+  background-color: #222;
+}
